@@ -13,8 +13,7 @@ tags:
 ---
 
 #### 1.git 免密码登录
-使用ssh方式    
-1：客户端git bash生成ssh秘钥，命令如下：
+使用ssh方式：客户端git bash生成ssh秘钥，命令如下：
 ```
 ssh-keygen -t rsa -b 4096 -C "your_name@example.com"
 ```  
