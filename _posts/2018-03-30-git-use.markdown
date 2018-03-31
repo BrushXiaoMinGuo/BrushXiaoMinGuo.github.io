@@ -1,0 +1,21 @@
+---
+layout:       post
+title:        "github使用"
+subtitle:     "github use"
+date:         2018-03-31
+author:       "Gxm"
+header-img:   "img/post-bg-2015.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: false
+tags:
+    - 工具
+---
+
+#### 1.git 免密码登录
+使用ssh方式    
+1：客户端git bash生成ssh秘钥，命令如下：
+```
+ssh-keygen -t rsa -b 4096 -C "your_name@example.com"
+```  
+点击setting界面ssh key，选择添加ssh key，将生成的ssh key添加 
