@@ -4,7 +4,7 @@ title:        "Serverless"
 subtitle:     "serverless"
 date:         2018-03-31
 author:       "Gxm"
-header-img:   "img/post-bg-2015.jpg"
+header-img:   "img/project.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: false

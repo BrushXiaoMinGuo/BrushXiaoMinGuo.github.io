@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df48a95-c968-4624-840c-e68daf433018" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2018-02-03-firends.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-04-find-job-data.markdown" afterPath="$PROJECT_DIR$/_posts/2018-03-04-find-job-data.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-04-find-job.markdown" afterPath="$PROJECT_DIR$/_posts/2018-03-04-find-job.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-24-find-job-java.markdown" afterPath="$PROJECT_DIR$/_posts/2018-03-24-find-job-java.markdown" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about-bg-o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar-hux-home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blog-sidebar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-bg-see-u-ali.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown" afterPath="$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown" />
     </list>
     <ignored path="BrushXiaoMinGuo.github.io.iws" />
@@ -147,12 +148,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-31-project-serverless.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-03-31-project-serverless.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="463">
-                <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <first_editor relative-caret-position="75">
+                <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -195,12 +196,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-04-find-job.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-03-04-find-job.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-04-find-job.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2108">
-                <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -254,11 +255,11 @@
         <option value="$PROJECT_DIR$/_posts/2018-03-30-git-use.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-02-03-firends.markdown" />
         <option value="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown" />
         <option value="$PROJECT_DIR$/_includes/posts/content/job.md" />
         <option value="$PROJECT_DIR$/_posts/2018-03-04-find-job.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-03-04-find-job-data.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-03-24-find-job-java.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown" />
       </list>
     </option>
   </component>
@@ -742,28 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="463">
-            <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-03-firends.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1041,8 +1020,30 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-03-04-find-job.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="2108">
-            <caret line="124" column="3" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-31-project-serverless.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="75">
+            <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
