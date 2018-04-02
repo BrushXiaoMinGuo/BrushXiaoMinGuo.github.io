@@ -1,6 +1,6 @@
 # Site settings
-title: Gxm
-SEOTitle: 一把刷子 | One Brush
+title: Brush
+SEOTitle: 刷子 | Brush
 header-img: img/home-bg.jpg
 email: 
 description: ""
@@ -12,10 +12,10 @@ baseurl: ""                                   # for example, '/blog' if your blo
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
+github_username:    BrushXiaoMinGuo
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -67,7 +67,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "好好活就是有意义，<br>有意义就是好好活"
+sidebar-about-description: "主动归零"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -90,10 +90,10 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
+    #    title: "乱序",
+    #    href: "http://mida.re/"
+    #},{
+        title: "评论",
         href: "http://qianduan.guru/"
     }
 ]
