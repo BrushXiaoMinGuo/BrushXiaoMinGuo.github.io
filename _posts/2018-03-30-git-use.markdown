@@ -2,7 +2,7 @@
 layout:       post
 title:        "github使用"
 subtitle:     "github use"
-date:         2018-03-31
+date:         2018-03-30
 author:       "Gxm"
 header-img:   "img/post-bg-2015.jpg"
 header-mask:  0.3
