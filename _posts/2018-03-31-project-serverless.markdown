@@ -35,9 +35,3 @@ tags:
 容器化部署: 容器化的网络,容器化脚本
 #### 周边对接
 监控对接、运维对接、运营对接、周边对接
-
- 
-```
-ssh-keygen -t rsa -b 4096 -C "your_name@example.com"
-``` 
-点击setting界面ssh key，选择添加ssh key，将生成的ssh key添加 
