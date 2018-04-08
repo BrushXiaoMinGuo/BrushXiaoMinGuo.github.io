@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df48a95-c968-4624-840c-e68daf433018" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" afterPath="$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown" />
     </list>
     <ignored path="BrushXiaoMinGuo.github.io.iws" />
@@ -52,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="289">
-                <caret line="17" column="992" selection-start-line="17" selection-start-column="992" selection-end-line="17" selection-end-column="992" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -846,8 +845,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2014-01-29-hello-2015.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="992" selection-start-line="17" selection-start-column="992" selection-end-line="17" selection-end-column="992" />
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
