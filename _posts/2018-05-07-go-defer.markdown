@@ -1,0 +1,44 @@
+---
+layout:       post
+title:        "go 语言 defer"
+subtitle:     "go language defer"
+date:         2018-05-07
+author:       "Gxm"
+header-img:   "img/project.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: false
+tags:
+    - go language
+---
+
+#### defer作用和执行时机
+defer作用：释放资源，关闭连接。   
+defer执行时机：defer用来延迟执行函数，延迟在return之后。
+由于函数的return 指令不是原子语句，defer执行顺序如下：     
+函数返回的过程是这样的：先给返回值赋值，然后调用defer表达式，最后才是返回到调用函数中。
+
+#### 多个defer执行顺序
+多个defer执行时按照先进后出的栈顺序完成执行顺序。
+```
+defer func() { fmt.Println("1") }()
+defer func() { fmt.Println("2") }()
+defer func() { fmt.Println("3") }()
+```
+输出顺序3/2/1
+
+#### defer参数问题
+被deferd的函数在defer时候确定参数
+```
+func a() {
+    i := 0
+    defer fmt.Println(i)
+    i++
+    return
+}
+```
+a输出的是0而不是1，因为在defer时变量是0
+
+#### defer的坑
+
+
