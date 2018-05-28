@@ -1,0 +1,54 @@
+---
+layout:       post
+title:        "murano 项目"
+subtitle:     "murano project"
+date:         2018-05-13
+author:       "Gxm"
+header-img:   "img/project.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: false
+tags:
+    - 项目
+---
+
+#项目介绍及架构
+murano is composed of the following major components:  
+* murano dashboard
+* murano cli
+* murano api
+* murano engine
+* murano agent
+
+
+```
+public class Test {
+
+    public static void main(String[] args) {
+
+        weekday mon = weekday.mon;
+        weekday tue = weekday.tue;
+        weekday thus = weekday.thus;
+        weekday fri = weekday.fri;
+
+    }
+
+    public enum weekday {
+        mon(), tue(2), wes(3), thus(), fri;
+        private weekday() {
+            System.out.println("no args");
+        }
+
+        private weekday(int i) {
+            System.out.println("have args " + i);
+        };
+    }
+}
+```
+Terminal输出:
+no args
+have args 2
+have args 3
+no args
+no args
+

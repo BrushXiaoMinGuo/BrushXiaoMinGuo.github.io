@@ -68,7 +68,7 @@ ga_domain:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "主动归零"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-gxm.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
