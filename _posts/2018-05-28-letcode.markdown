@@ -1,53 +1,91 @@
 ---
 layout:       post
-title:        "murano 项目"
-subtitle:     "murano project"
-date:         2018-05-13
+title:        "5月leetcode"
+subtitle:     "May leetcode"
+date:         2018-05-18
 author:       "Gxm"
 header-img:   "img/project.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: false
 tags:
-    - 项目
+    - leetcode
 ---
 
-#项目介绍及架构
-murano is composed of the following major components:  
-* murano dashboard
-* murano cli
-* murano api
-* murano engine
-* murano agent
+#454. 4Sum II
+```
+Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.
+To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N ≤ 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.
+Example: 
+Input:
+A = [ 1, 2]
+B = [-2,-1]
+C = [-1, 2]
+D = [ 0, 2]
 
+Output:
+2
+
+Explanation:
+The two tuples are:
+1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0
+2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0
 
 ```
-public class Test {
-
-    public static void main(String[] args) {
-
-        weekday mon = weekday.mon;
-        weekday tue = weekday.tue;
-        weekday thus = weekday.thus;
-        weekday fri = weekday.fri;
-
-    }
-
-    public enum weekday {
-        mon(), tue(2), wes(3), thus(), fri;
-        private weekday() {
-            System.out.println("no args");
+最开始思路：四层遍历，这个肯定是不行的，但是想不到好方法；
+改进思路：看到选取两个遍历，一种分治的做法.
+java版本：写到这里也写不下去了，没有利用好前后两次循环的特点，选取list结构错误。
+```
+class Solution {
+    public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
+        class sum{
+            int index1;
+            int index2;
+            int sum;
+            sum(index1,index2,sum)
+            {
+                this.index1=index1;
+                this.index2=index2;
+                this.sum=sum;
+            }
         }
-
-        private weekday(int i) {
-            System.out.println("have args " + i);
-        };
+        int res=0;
+        ArrayList<sum> list=new ArrayList<sum>();
+        for(int i=0;i<A.length;i++){
+            for(int j=0;j<B.length;j++)
+                list.add(new sum(i,j,A[i]+B[j]))
+        }
+        for(int i=0;i<C.length;i++){
+            for(int j=0;j<D.length;j++){
+                
+            }
+                list.add(new sum(i,j,C[i]+D[j]))
+        } 
     }
 }
 ```
-Terminal输出:
-no args
-have args 2
-have args 3
-no args
-no args
+最终代码：java版本
+```
+class Solution {
+    public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
+        HashMap<Integer,Integer> ab=new HashMap<Integer,Integer>();
+        int res=0;
+        for(int i=0;i<A.length;i++){
+            for(int j=0;j<B.length;j++){
+                ab.put(A[i]+B[j],ab.getOrDefault(A[i]+B[j],0)+1);
+            }         
+        }
+        for(int i=0;i<C.length;i++){
+            for(int j=0;j<D.length;j++){
+                Integer temp=C[i]+D[j];
+                temp=0-temp;
+                res+=ab.getOrDefault(temp,0);
+            }              
+        } 
+        return res;
+    }
+}
+```
+最终代码：C++版本
+
+
