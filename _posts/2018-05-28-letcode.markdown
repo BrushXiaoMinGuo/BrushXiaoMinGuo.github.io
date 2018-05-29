@@ -12,7 +12,7 @@ tags:
     - leetcode
 ---
 
-#### 454. 4Sum II
+#### 5.28 454. 4Sum II
 
 ```
 Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.
@@ -90,3 +90,72 @@ class Solution {
 最终代码：C++版本       
 
 
+#### 5.29 412. Fizz Buzz
+```
+Write a program that outputs the string representation of numbers from 1 to n.
+
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+Example:
+n = 15,
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
+```
+
+java 版本：（知识点：java里面的String对象, int2str）
+```
+class Solution {
+    public List<String> fizzBuzz(int n) {
+        ArrayList<String> re = new ArrayList<String>();
+        for(int i=1;i<=n;i++)
+        {
+            if(i%3==0 && i%5 == 0){
+                re.add("FizzBuzz");
+            }else if(i%3==0){
+                re.add("Fizz");
+            }else if(i%5==0){
+                re.add("Buzz");
+            }else re.add(String.valueOf(i));
+        
+        }
+        return re;
+    }
+}
+```
+
+C++ 版本：(知识点: c++ string, int2str, vector)
+```
+class Solution {
+public:
+    vector<string> fizzBuzz(int n) {
+        vector<string> re;
+        for(int i=1;i<=n;i++)
+        {
+            if(i%3==0 && i%5 == 0){
+                re.push_back("FizzBuzz");
+            }else if(i%3==0){
+                re.push_back("Fizz");
+            }else if(i%5==0){
+                re.push_back("Buzz");
+            }else re.push_back(std::to_string(i));
+        
+        }
+        return re;
+    }
+};
+```
