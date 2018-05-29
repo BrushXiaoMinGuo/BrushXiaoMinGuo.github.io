@@ -159,3 +159,22 @@ public:
     }
 };
 ```
+go 版本（知识点 go切片，int2str）
+```
+func fizzBuzz(n int) []string {
+        var re [] string;
+        for i:=1;i<=n;i++{
+            if(i%3==0 && i%5 == 0){
+                re=append(re,"FizzBuzz");
+            }else if(i%3==0){
+                re=append(re,"Fizz");
+            }else if(i%5==0){
+                re=append(re,"Buzz");
+            }else {
+                re=append(re,strconv.Itoa(i));
+            } 
+        
+        }
+        return re;
+}
+```
