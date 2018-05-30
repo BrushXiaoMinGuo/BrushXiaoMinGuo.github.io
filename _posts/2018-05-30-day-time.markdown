@@ -1,0 +1,20 @@
+---
+layout:       post
+title:        "记录每天时间"
+subtitle:     "every time"
+date:         2018-05-30
+author:       "Gxm"
+header-img:   "img/project.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: false
+tags:
+    - day time
+---
+
+#### 6月
+|日期|起床：6:00-6:30|睡觉12:00-12:30|leetcode|leetcode 语言知识点|统计学|读书：原则|
+|----|--------------:|--------------:|-------:|----------------:|-----:|-------:|
+|5.29|    x (9:20)   |  x  (2:00)| ok|x|x|ok|
+|5.30|    x(8:40)|  x(1:30)|||||
+
