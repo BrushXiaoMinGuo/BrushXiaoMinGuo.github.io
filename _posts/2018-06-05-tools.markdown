@@ -13,9 +13,9 @@ tags:
 ---
 
 #### python使用Pypi发布项目
-1: Pypi官网注册账号： XiaoMinGuo/xxx
-2: 项目根目录创建__init__.py
-3: 外层目录创建setup.py; pip freeze 导出依赖的包
+1: Pypi官网注册账号： XiaoMinGuo/xxx          
+2: 项目根目录创建__init__.py          
+3: 外层目录创建setup.py; pip freeze 导出依赖的包             
 ```
 setup(
     name='NebulasSdkPy',
@@ -51,7 +51,7 @@ setup(
         "urllib3 == 1.22"
     ],
 ```
-4: 根目录创建pypirc: ~/.pypirc.内容如下：
+4: 根目录创建pypirc: ~/.pypirc.内容如下：           
 ```
 [distutils]
 index-servers=pypi
@@ -61,13 +61,13 @@ repository = https://upload.pypi.org/legacy/
 username = <username>
 password = <password>
 ```
-5: 本地打包
-6: 使用twine注册包
-pip install twine 然后twine register dist/*
-7: 使用twine上传包
-twine upload dist/*
-上传后在自己的项目可见自己的包。
-8:让别人使用你的包：
-pip install package-name
-pip install package-name update
-[参考链接](https://segmentfault.com/a/1190000008663126#articleHeader11)
+5: 本地打包            
+6: 使用twine注册包            
+pip install twine 然后twine register dist/*          
+7: 使用twine上传包            
+twine upload dist/*             
+上传后在自己的项目可见自己的包。              
+8:让别人使用你的包：             
+pip install package-name           
+pip install package-name update           
+[参考链接](https://segmentfault.com/a/1190000008663126#articleHeader11)      
