@@ -1,0 +1,40 @@
+---
+layout:       post
+title:        "learnCpp"
+subtitle:     "LearnCpp"
+date:         2018-06-09
+author:       "Gxm"
+header-img:   "img/post-bg-e2e-ux.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: false
+tags:
+    - LearnCpp
+---
+
+#### Introducation to these tutorials
+important goals of these tutorials:   
+* programming topics in c++: how to program in c++ && how not program in c++.
+* a lot of examples: following the example.
+* a lot of practice: do, compare, refocus on the aera you need work on.
+getting the most out of these tutorials
+* typing by hand and compile them yourself
+* make mistakes and fix them by yourself
+* learn debug
+
+#### Introducation to these programming language
+* machine language: each instruction is composed of binary digits, each a set of binary digits is translated by the cpu into an instruction that tells it to do an specific job.  
+* assembly language: not human readable.  
+* High-level language: compilling and interpreting.   
+compiler is a that reads code and produces stand-alone program that cpu can understand directly. here is a simplified representation of the compilling process:
+![](/img/in-post/CompiledExecutable.png)
+an interpreter is a program that execute your code directly without compilling it into machine code first. here is a interpreter representation of the interpretation process:
+![](/img/in-post/Interpreted.png)
+traditionally language like c,c++ are compiled and script language like shell are interpreted, java use mix of the two.
+#### Introducation to development
+* what step: define the program to be solved
+* how step: determine how you can solve the program
+* write the program: link numbers, syntac highlightling and coloring can help
+![](/img/in-post/Development.png)
+* compilling and linking
+* testing and debugging
